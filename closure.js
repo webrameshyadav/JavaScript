@@ -6,9 +6,9 @@
 
 let Firstname = 'John';
 
-function greeting() { 
+function greeting(prama) { 
     let message = 'Hi';
-    console.log(message + ' '+ Firstname);
+    console.log(message + ' '+ Firstname+ ' '+ prama);
 }
 
-greeting();
+greeting('Ramesh');
