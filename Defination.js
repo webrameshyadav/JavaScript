@@ -5,6 +5,15 @@ Webpack is a tool that lets you compile JavaScript modules, also known as module
 Given a large number of files, it generates a single file (or a few files) that run your app. 
 It can perform many operations: helps you bundle your resources. ... allows you to use require() for CSS files
 ---------
+JavaScript Build Tools and Automation Systems 
+Webpack.
+Grunt.
+Gulp.
+Browserify.
+Brunch.
+Yeoman.
+
+----
 Higher-order functions are functions that take a function as an argument and/or return a function. 
 We use them a lot in functional programming. 
 They are a way to define reusable functionality, as we do with map, filter, and reduce.
@@ -21,4 +30,3 @@ data outside its scope(Side Effects). Its output or return value must depend on 
 and pure functions must return a value. ... Not only must pure function return a value but 
 it must depend on the input.
 ----
-
