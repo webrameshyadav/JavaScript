@@ -1,0 +1,23 @@
+@mixin important-text {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid pink;
+  }
+
+  .danger {
+    @include important-text;
+    background-color: green;
+  }
+
+  /* Define standard variables and values for website */
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
